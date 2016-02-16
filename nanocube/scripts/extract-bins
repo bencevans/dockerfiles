@@ -1,0 +1,4 @@
+#!/bin/bash
+CONTAINER=$(docker run -d bencevans/nanocubes)
+docker cp ${CONTAINER}:/nanocube-3.2.1/bin/ ./
+docker rm ${CONTAINER}
