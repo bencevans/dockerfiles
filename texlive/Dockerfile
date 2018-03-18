@@ -1,2 +1,2 @@
 FROM debian:jessie
-RUN apt-get update && apt-get install -y texlive-full biber
+RUN apt-get update && apt-get install -y texlive biber
